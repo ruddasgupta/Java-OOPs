@@ -1,0 +1,9 @@
+class One{
+	public void process(){
+		System.out.println("Parent");
+	}
+}
+
+public abstract class Test extends One{
+	public abstract void process();
+}

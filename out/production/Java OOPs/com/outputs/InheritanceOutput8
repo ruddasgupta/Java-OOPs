@@ -1,0 +1,14 @@
+interface Inter{}
+class One{}
+class Two extends One{}
+class Three extends One{}
+class Four extends Two implements Inter{}
+class Five extends Four{}
+class Six extends Three{}
+
+public class Test{
+
+	public static void main(String[] args) {
+		//your code here
+	}
+}
